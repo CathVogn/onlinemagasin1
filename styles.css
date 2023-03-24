@@ -1,0 +1,811 @@
+
+*{
+margin: 0px;
+padding: 0px;
+font-family: 'Oswald', sans-serif;
+box-sizing: border-box;
+}
+
+
+#logo{
+    width: 100%;
+    position: absolute;
+}
+
+/* --------------------------------------forklar-------------------------------- */
+.baggrund{
+    min-height: 70vh;
+    width: 100%;
+    background-image: url(img/anne.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav{
+   display: flex;
+   padding: 0.5% 8%;
+   justify-content: space-between;
+   align-items: center; 
+}
+
+.nav-links{
+    flex:2;
+    text-align: center;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 32px;
+    position: relative;
+}
+
+.nav-links ul li a:hover{
+        color: #7E0909;
+}
+
+.nav-links ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 35px;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
+
+
+/* KvindeArtkel forside */
+
+.forside-overskrift{
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    padding-top:100px;
+    padding-bottom: 50px;
+    font-size: 100px;
+    
+}
+
+.forside-overskrift a p:hover{
+    color: #7E0909;
+}
+
+.forside-overskrift a :hover{
+    color: #7E0909;
+}
+
+.forside-overskrift a{
+    text-decoration: none; 
+    color: black;
+}
+
+
+/* --------------------------------------forklar-------------------------------- */
+h1{
+    font-size: 80px;
+    text-align: center;
+    text-decoration: none;
+}
+
+p{
+    color: grey;
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+.kvinder{
+       display: flex;   
+}
+
+.kort{
+    flex:33.33%;
+    padding:30px;
+    padding-bottom: 300px;
+}
+
+.kort img{
+    border: 20px solid #7E0909;;
+    width: 100%;
+    border-radius: 10px;
+    transition: width 2s, height 2s;
+}
+
+.kort img:hover{
+    width: 300px;
+  height: 400px;
+}
+
+/* Nyheder forside */
+
+
+.nyheder-forsider-overskrift{
+    padding-bottom: 50px;
+}
+
+.forsidenyheder{
+    margin-left: 10%;
+}
+
+.knapforside{
+    padding: 2rem 6rem;
+    background-color:#7E0909;
+    color: white;
+    border: 1px soild transparent;
+    border-radius: 1rem;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.forsidenyheder .inhold-nyheder-artkel .main-indhold .linjeforside{
+    border: 2px solid #7E0909;
+    margin-left: 5;
+    margin-right: 5%;
+}
+
+/* Husker du forside*/
+
+.bareplads{
+    padding-bottom: 1100px;
+    background-color: white;
+}
+
+.huskerdu{
+    margin: 5%;
+    background-color: black;
+    padding-bottom: 500px;
+}
+
+.huskerdu h2{
+    color: white;
+    font-size: 80px;
+}
+
+/* koncerter forside*/
+.bareplads1{
+    padding-top: 300px;
+}
+
+.koncertforside
+    {
+    background-color:#7E0909;
+    padding-bottom: 300px;}
+
+
+
+/* Husker du hjemmeside*/
+
+.huskerdu h1{
+    color: #7E0909;
+    padding-top: 40px;
+    }
+
+
+
+.husk{
+   
+    margin-top: 200px;
+}
+
+.dafarvardreng{
+    background-color: black;
+    margin: 5%;
+    margin: 5%;
+    padding-bottom: 500px;
+    color: white;
+    font-size: 40px;
+    border: #7E0909 solid 8px;
+}
+
+
+.legender{
+    background-color:#7E0909;
+    color: white;
+    padding-bottom: 500px;
+    
+}
+
+
+
+/* Kvindeartikel */
+
+.baggrund1{
+    min-height: 80vh;
+    width: 100%;
+    background-image: url(img/annesannelis.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.kvindeartikel h4{
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.kvindeartikel{
+padding-top: 25px;
+margin-left: 15%;
+margin-right: 15%;
+padding-bottom: 200px;
+}
+
+.kvindeartikel h2{
+font-size: 40px;
+padding-top: 50px;
+}
+
+.kvindeartikel h1{
+    color: #7E0909;
+}
+
+/* Det forskellige små artikler til kvinder */
+
+.sortboks{
+    background-color: black;
+    padding-bottom: 400px;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 50px;
+    
+}
+
+.sortboks h1{
+    color:#7E0909;
+    font-size: 65px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+
+.sortboks p{
+color:white;
+    font-size: 35px;    
+}
+
+.sortboks .boksmedtekst{
+    background-color:#7E0909;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 30px;
+}
+
+
+
+.rodboks p{
+    color: black;
+        font-size: 35px;    
+    }
+
+.rodboks .boksmedtekst{
+    background-color:snow;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 30px;
+}
+
+.rodboks{
+    background-color:#7E0909;
+    padding-bottom: 400px;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 50px;
+}
+
+.rodboks h1{
+    color:white;
+    font-size: 65px;
+    padding-bottom: 30px;
+}
+
+
+.boksmedtekst .placering{
+    padding-bottom: 40px;
+    margin-left: 20%;
+    margin-right: 20%;
+    position: relative;
+}
+/* --------------------------------------forklar-------------------------------- */
+  /* For-og -bagside kort */
+  .flip-card-inner {
+    padding-bottom: 40px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Rotationen */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position af billedet for og bag */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  
+  .flip-card-back {
+    transform: rotateY(180deg);
+  }
+  
+
+.nyheder{
+    background-color: black;
+    padding: 200px;
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: center;
+    position: relative;
+}
+
+/* Pinkfloyd artikel */
+
+
+.pinkoverskrift h1{
+    font: 50px;
+    color: #7E0909;
+    text-align: center;
+    padding: 30px;
+}
+
+
+.baggrund2{
+    min-height: 70vh;
+    width: 100%;
+    background-image: url(img/pinkfloydcover.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.pinkartikel{
+margin-right: 20%;
+margin-left: 20%;
+padding-bottom: 300px;   
+}
+
+.pinkartikel h2{
+    font-size: 60px;
+    text-align: center;
+    color: #7E0909;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.pinkartikel h4{
+    padding-top: 40px;
+    font-size: 40px;
+    color: black;
+    padding-bottom: 45px;
+}
+
+.pinkartikel p{
+    padding-top: 5px;
+    font-size: 30px;
+    color: black;
+    text-align: start;
+    padding-bottom: 50px;
+}
+
+.baggrund3{
+    min-height: 70vh;
+    width: 100%;
+    background-image: url(img/pinkbaggrund.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.pinkanalyse{
+    background-color: black;
+    padding-bottom: 100px;
+    color:white;
+}
+
+.pinkanalyse h4{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    padding-top:400px;
+    font-size: 50px;
+}
+
+
+.pinkanalyse h5{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    padding-top:400px;
+    font-size: 50px;
+    color: #AD0505;
+}
+
+#darksidelogo{
+    width: 100%;
+}
+
+.pinkanalyse p{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 50px; 
+    color: white;
+    padding-bottom: 200px;
+    
+}
+/* --------------------------------------forklar-------------------------------- */
+.baggrund4{
+    min-height: 600vh;
+    width: 100%;
+    background-image: url(img/stjernehimmel.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+#moon{
+    align-items: center;
+    padding-top: 500px;
+    margin-left: 450px;
+    width: 600px;
+    padding-bottom: 500px;
+}
+
+.baggrund5{
+    min-height: 75vh;
+    width: 100%;
+    background-image: url(img/scenepink.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 100px;
+}
+
+.pinkanalyse h6{
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 100px;
+    color: #AD0505;
+}
+
+.baggrund6{
+    min-height: 75vh;
+    width: 100%;
+    background-image: url(img/syd.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}  
+
+
+.baggrund6 p{
+    color: white;
+    text-align: left;
+}
+
+
+.baggrund7{
+    min-height: 75vh;
+    width: 100%;
+    background-image: url(img/darksideslut.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}  
+
+
+
+/* nyheder artikel */
+.nyhedertop{
+padding-bottom: 50px;
+
+}
+
+.nyhedertop h1{
+color: #7E0909;
+padding-top: 40px;
+}
+
+.linje {
+    border: 2px solid #7E0909;
+    margin-left: 15%;
+    margin-right: 15%;
+   
+  }
+
+  .inhold-nyheder-artkel{
+    width: 90%;
+    margin:30px auto 30px;
+  }
+
+  .main-indhold{
+    align-items: center;
+    width:70%;
+    position: absolute;
+  }
+
+  .inhold-nyheder-artkel .sidebar{
+    width: 30%;
+    float: left;
+    border: 1px dashed green;
+    height: 300px;
+  }
+
+  .clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  .tommy-resume {
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+  .inhold-nyheder-artkel .main-indhold .post{
+    width: 95%;
+    height: 350px;
+    margin: 50px auto;
+    border-radius: 5px;
+    background-color: white;
+    position: relative;
+  }
+
+
+.inhold-nyheder-artkel .main-indhold .post .knap{
+    position: absolute;
+    bottom: 10px;
+    right: 40px;
+}
+
+  .inhold-nyheder-artkel .main-indhold .post .post-image{
+width:40%;
+height: 100%;
+float: left;
+  }
+
+  h3{
+    font-size: 40px;
+    text-align: center;
+    text-decoration: none;
+    color: #7E0909;
+}
+
+h3 a{
+    text-decoration: none;
+    color: #7E0909;
+}
+
+  .inhold-nyheder-artkel .main-indhold .post .post-preview{
+    width: 60%;
+    padding: 10px;
+    float:right;
+  }
+
+  .knap{
+    padding: .5rem 1rem;
+    background-color: black;
+    color: white;
+    border: 1px soild transparent;
+    border-radius: .25rem;
+    text-decoration: none;
+    
+  }
+
+
+  .knap:hover{
+color: #7E0909;
+  }
+
+
+
+.inhold-nyheder-artkel .main-indhold .knapforside{
+    
+    position: relative;
+    bottom: 10px;
+    right: 350px;
+    float: right;
+}
+
+
+
+/* Tommy artikel */
+
+.tommy p{
+    padding-top: 5px;
+    font-size: 40px;
+    color: black;
+    text-align: start;
+    padding-bottom: 50px;
+}
+
+.baggrund8{
+    min-height: 60vh;
+    width: 100%;
+    background-image: url(img/baggrundtommy.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}  
+
+.tommyoverskrift{
+    color: #7E0909;
+    padding-top: 60PX;
+    padding-bottom: 100px;
+}
+
+.tommy{
+
+margin-left: 15%;
+margin-right: 15%;
+padding-top: 40px;
+    font-size: 35px;
+    color: black;
+    padding-bottom: 45px;
+    
+}
+
+.tommy h4{
+    padding-top: 20px;
+    font: 30px;
+    text-align: justify;
+    padding-bottom: 40px;
+}
+
+#tommybar{
+    float: right;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+
+
+.facts-tommy h4{
+    color: white;
+    margin: 5%;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+
+.facts-tommy{
+    background-color:#7E0909;
+}
+
+.aalborg h2{
+    padding-top: 60px;
+    color: #7E0909;
+}
+
+
+.baggrund9{
+    min-height: 60vh;
+    width: 100%;
+    background-image: url(img/hyg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;}
+
+.baggrund9 p{
+color: white;
+text-align: left;}
+
+.hjemmestudie h2{
+    color: #7E0909;
+    padding-top: 100px;
+}
+
+.baggrund9 h6{
+    color: white;
+    padding-left: 4px;
+    font-size: 20px;
+}
+
+.studie-billeder{
+    display: flex;
+}
+
+.studie-billeder img{
+   margin:5px;
+   align-items: center;
+   
+}
+
+.flerebilleder-overskrift{
+    color: #7E0909;
+    padding-top: 100px;
+    font-size: 30px;
+}
+
+
+/* tommy flere billeder */
+.row {
+    display: flex;
+    background-color: black;
+  }
+
+  .column {
+    flex: 33.33%;
+  }
+
+/* footer */
+  footer{
+    margin-top:150px;
+    width:100%;
+    padding: 100px 15%;
+    background-color: #7E0909;
+    color: black;
+    display: flex;
+  }
+
+  footer div{
+    text-align: center;
+  }
+
+  .col2{
+    flex-grow: 2;
+  }
+
+  footer div h6{
+    font-size: 20px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+  }
+
+  .col1 a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+  }
+
+  form input{
+width: 400px;
+height: 45px;
+border-radius: 4px;
+text-align: center;
+margin-top: 40px;
+margin-bottom: 40px;
+outline: none;
+border: black solid 1px;
+
+  }
+
+  form button{
+    background: transparent;
+    color: white;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 20px 30px;
+    font-size:15px;
+    cursor: pointer;
+  }
+
+  .sociale{
+    margin-top: 30px;
+    color: white;
+  }
+
+  .sociale i{
+    font-size: 22px;
+    margin: 10px;
+    cursor: pointer;
+  }
+
+  .col3 p{
+    color: white;
+  }
